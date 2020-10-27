@@ -1,0 +1,30 @@
+body {
+	  background-image: url('RadioDanaM.jpg');
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;  
+	  background-size: cover;
+}
+@media only screen and (orientation: landscape) {
+/* For landscape mode: */
+body {
+	background-image: url('RadioDana.jpg');
+}
+}
+h2 {
+	-webkit-text-stroke: 0.5px white;
+}
+h4 {
+	color: rgb(13,8,85);
+	-webkit-text-stroke: 0.25px white;
+}
+p {
+	direction: rtl;
+	overflow: auto;
+	background: rgba(5, 37, 50, 0.5);
+	color: rgb(200,200,200);
+}
+iframe {
+	border: none;
+	width: 100%;
+	vertical-align: text-bottom;
+}
