@@ -19,7 +19,6 @@ h4 {
 }
 p {
 	direction: rtl;
-	overflow: auto;
 	background: rgba(5, 37, 50, 0.5);
 	color: rgb(200,200,200);
 }
