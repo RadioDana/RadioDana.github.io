@@ -37,21 +37,38 @@ function isVisible(elem) {
 */
 
 function showVisible() {
-  for (let iframe of document.querySelectorAll('iframe')) {
-	let src = iframe.title;
-	if (!src) continue;
+	scrolling();
+	
+	if (scrollTimer != -1)
+		clearTimeout(scrollTimer);
 
-	if (isVisible(iframe)) {
-	  // disable caching
-	  // this line should be removed in production code
-	  //realSrc += '?nocache=' + Math.random();
+	scrollTimer = window.setTimeout("scrollFinished()", 500);
+		
+	for (let iframe of document.querySelectorAll('iframe')) {
+		let src = iframe.title;
+		if (!src) continue;
 
-	  iframe.src = src;
+		if (isVisible(iframe)) {
+		  // disable caching
+		  // this line should be removed in production code
+		  //realSrc += '?nocache=' + Math.random();
 
-	  iframe.title = '';
+		  iframe.src = src;
+		  iframe.title = '';
+		}
 	}
-  }
 
+}
+
+var scrollTimer = -1;
+var header = document.getElementById("header");
+
+function scrolling() {
+    header.classList.add("scroll");
+}
+
+function scrollFinished() {
+    header.classList.remove("scroll");
 }
 
 window.addEventListener('scroll', showVisible);

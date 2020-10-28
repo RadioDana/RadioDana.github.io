@@ -5,10 +5,13 @@ body {
 	  background-size: cover;
 }
 @media only screen and (orientation: landscape) {
-/* For landscape mode: */
-body {
-	background-image: url('RadioDana.jpg');
+	/* For landscape mode: */
+	body {
+		background-image: url('RadioDana.jpg');
+	}
 }
+.scroll {
+	opacity: 0.25;
 }
 h2 {
 	-webkit-text-stroke: 0.5px white;
@@ -26,4 +29,44 @@ iframe {
 	border: none;
 	width: 100%;
 	vertical-align: text-bottom;
+}
+.icon-bar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgba(5, 37, 50, 0.75);
+	overflow: auto;
+}
+.icon-bar a {
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding: 12px 0;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 36px;
+}
+.icon-bar a:hover {
+	color: white !important;
+}
+.icon-bar a[style="color:#4267B2"]:hover {
+	background-color: #4267B2;
+}
+.icon-bar a[style="color:#25D366"]:hover {
+	background-color: #25D366;
+}
+.icon-bar a[style="color:#0088CC"]:hover {
+	background-color: #0088CC;
+}
+.icon-bar a[style="color:#FF0000"]:hover {
+	background-color: #FF0000;
+}
+.active {
+	background-color: #4CAF50;
+}
+a:link, a:visited {
+	color: orange;
+}
+a:hover, a:active {
+	background-color: white;
 }
