@@ -38,37 +38,20 @@ function isVisible(elem) {
 
 function showVisible() {
   for (let iframe of document.querySelectorAll('iframe')) {
-	// let realSrc = iframe.name;
-	// if (!realSrc) continue;
+	let src = iframe.title;
+	if (!src) continue;
 
 	if (isVisible(iframe)) {
-		iframe.contentwindow.location.reload();
 	  // disable caching
 	  // this line should be removed in production code
 	  //realSrc += '?nocache=' + Math.random();
 
-	  // iframe.src = realSrc;
+	  iframe.src = src;
 
-	  // iframe.name = '';
+	  iframe.title = '';
 	}
   }
 
-}
-
-window.onload = function() {
-    // if(!window.location.hash) {
-        // window.location = window.location + '#loaded';
-        // window.location.reload();
-    // }
-	for (let iframe of document.querySelectorAll('iframe')) {
-		if (navigator.appName == 'Microsoft Internet Explorer') {
-			iframe.document.execCommand('Stop');
-		}
-		else {
-			iframe.contentwindow.location.stop();
-			
-		}
-	}
 }
 
 window.addEventListener('scroll', showVisible);
