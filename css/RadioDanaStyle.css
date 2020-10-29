@@ -1,5 +1,5 @@
 body {
-	  background-image: url('images/RadioDanaM.jpg');
+	  background-image: url('../images/RadioDanaM.jpg');
 	  background-repeat: no-repeat;
 	  background-attachment: fixed;  
 	  background-size: cover;
@@ -7,7 +7,7 @@ body {
 @media only screen and (orientation: landscape) {
 	/* For landscape mode: */
 	body {
-		background-image: url('images/RadioDana.jpg');
+		background-image: url('../images/RadioDana.jpg');
 	}
 }
 .scroll {
