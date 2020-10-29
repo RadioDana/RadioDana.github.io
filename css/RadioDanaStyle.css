@@ -1,9 +1,11 @@
 body {
-		height: 100vh;
-		background-image: url('../images/RadioDanaM.jpg');
-		background-repeat: no-repeat;
-		background-attachment: fixed;  
-		background-size: cover;
+	top: 0;
+	position: fixed;
+	height: 100vh;
+	background-image: url('../images/RadioDanaM.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
 }
 @media only screen and (orientation: landscape) {
 	/* For landscape mode: */
