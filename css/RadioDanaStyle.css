@@ -46,7 +46,7 @@ iframe {
 	font-size: 50px;
 }
 .icon-bar a[title="Home"]:hover {
-	color: black !important;
+	color: #052532 !important;
 	background-color: #ABEBF4;
 }
 .icon-bar a[style="color:#4267B2"]:hover {
