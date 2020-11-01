@@ -49,7 +49,7 @@ iframe {
 	transition: all 0.3s ease;
 	font-size: 36px;
 }
-.icon-bar a[title="Home"]:hover {
+.icon-bar a[style*="#ABEBF4"]:hover {
 	color: #052532 !important;
 	background-color: #ABEBF4;
 }
