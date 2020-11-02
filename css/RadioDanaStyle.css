@@ -35,7 +35,7 @@ iframe {
 	vertical-align: text-bottom;
 }
 marquee {
-	position: absolute;
+	position: relative;
 	top: 55px;
 	width: 100%;
 	background-color: rgba(5, 37, 50, 0.75);
