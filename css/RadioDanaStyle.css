@@ -40,6 +40,7 @@ iframe {
 	height: 25px;
 	width: 100%;
 	background-color: rgba(5, 37, 50, 0.75);
+	z-index: -1;
 }
 .marquee a {
 	color: #ABEBF4;
