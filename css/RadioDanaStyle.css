@@ -34,16 +34,17 @@ iframe {
 	width: 100%;
 	vertical-align: text-bottom;
 }
-marquee {
+.marquee {
 	position: relative;
 	top: 55px;
+	height: 25px;
 	width: 100%;
 	background-color: rgba(5, 37, 50, 0.75);
 }
-marquee a {
+.marquee a {
 	color: #ABEBF4;
 }
-marquee a:hover {
+.marquee a:hover {
 	font-weight: bold;
 	color: #4267B2;
 	background-color: #ABEBF4;
