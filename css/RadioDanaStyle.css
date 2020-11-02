@@ -34,6 +34,20 @@ iframe {
 	width: 100%;
 	vertical-align: text-bottom;
 }
+marquee {
+	position: absolute;
+	top: 55px;
+	width: 100%;
+	background-color: rgba(5, 37, 50, 0.75);
+}
+marquee a {
+	color: #ABEBF4;
+}
+marquee a:hover {
+	font-weight: bold;
+	color: #4267B2;
+	background-color: #ABEBF4;
+}
 .icon-bar {
 	position: fixed;
 	top: 0;
@@ -68,12 +82,13 @@ iframe {
 .icon-bar a[style="color:#1DB954"]:hover {
 	background-color: #1DB954;
 }
-.icon-bar a:hover, a:active {
+.icon-bar a:hover, .icon-bar a:active {
 	color: white !important;
 }
-a:link, a:visited {
+.credit a:link, .credit a:visited {
 	color: orange;
 }
-a:hover, a:active {
+.credit a:hover, .credit a:active {
+	color: red;
 	background-color: white;
 }
