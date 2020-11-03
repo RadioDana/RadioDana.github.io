@@ -6,7 +6,12 @@
 	<script type="text/javascript" src="scripts/gtag.js"></script>
 	<script type="text/javascript">var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101284565);</script>
 	<script type="text/javascript" async src="https://static.getclicky.com/js"></script>
-	<script src="scripts/LoadOnScroll.js" type="text/javascript" async></script>
+	<!-- <script src="scripts/LoadOnScroll.js" type="text/javascript" async></script> -->
+	<script>
+		function resizeIframe(obj) {
+		obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+		}
+	</script>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta property="og:title" content="RadioDana - השיר של 15:00" />
@@ -31,14 +36,15 @@
 	  <a title="רדיו דנה ביוטיוב" href="https://www.youtube.com/channel/UCVwpZ5rpYeyRU6TBdw8nAdg/" target="_blank" style="color:#FF0000"><i class="fab fa-youtube"></i></a> 
 	  <a title="רדיו דנה בספוטיפיי" href="https://open.spotify.com/show/26X70CVzY1dORg6g0igMag" target="_blank" style="color:#1DB954"><i class="fab fa-spotify"></i></a>
 	</div>
-	<div class="marquee"><marquee direction="right"><a target="_blank" href="https://www.facebook.com/events/2860307874250063/"><i>ביום חמישי (5.11.2020) בשעה 18:30 - רדיו דנה מארח את השחקן ניר סעדון</i></a></marquee></div>
-	<div class="stackedit__html" style="padding-top:100px">
-		<iframe  name="content" height="1500" ></iframe>
+	<div class="marquee" style="position:fixed"><marquee direction="right"><a target="_blank" href="https://www.facebook.com/events/2860307874250063/"><i>ביום חמישי (5.11.2020) בשעה 18:30 - רדיו דנה מארח את השחקן ניר סעדון</i></a></marquee></div>
+	<div class="stackedit__html" style="padding-top:100px;">
+		<iframe  name="content" scrolling="no" onload="resizeIframe(this)"></iframe>
 	</div>
-
-	<a title="Real Time Web Analytics" href="http://clicky.com/101284565" target="_blank"><img src="images/badge.gif" border="0" /></a>
-	<noscript><p><img alt="Clicky" width="1" height="1" src="images/101284565ns.gif" /></p></noscript>
-
-	<div align="center" class="credit"><b><a title="Powered by Israel Goldberg" href="https://www.instagram.com/israel.gold/" target="_blank">Powered by Israel Goldberg</a></b>
+	<table class="bottom"><tr><td>
+		<a title="Real Time Web Analytics" href="http://clicky.com/101284565" target="_blank"><img src="images/badge.gif" border="0" /></a>
+		<noscript><p><img alt="Clicky" width="1" height="1" src="images/101284565ns.gif" /></p></noscript>
+	</td><td style="width: 50%">
+	<b><a title="Powered by Israel Goldberg" href="https://www.instagram.com/israel.gold/" target="_blank">Powered by Israel Goldberg</a></b>
+	</td><td></td></tr></table>
 </body>
 </html>

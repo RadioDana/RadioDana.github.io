@@ -34,6 +34,11 @@ iframe {
 	width: 100%;
 	vertical-align: text-bottom;
 }
+td {
+	width: 25%;
+	border: 0;
+	vertical-align: middle;
+}
 .marquee {
 	position: relative;
 	top: 50px;
@@ -88,10 +93,15 @@ iframe {
 .icon-bar a:hover, .icon-bar a:active {
 	color: white !important;
 }
-.credit a:link, .credit a:visited {
+.bottom {
+	width: 100%;
+	text-align: center;
+	/* position: fixed; */
+	/* bottom: 10px; */
+}
+.bottom a:link, .bottom a:visited {
 	color: orange;
 }
-.credit a:hover, .credit a:active {
+.bottom a:hover, .bottom a:active {
 	color: red;
-	background-color: white;
 }
