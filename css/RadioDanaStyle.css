@@ -46,6 +46,7 @@ td {
 	width: 100%;
 	background-color: rgba(5, 37, 50, 0.75);
 	z-index: 0;
+	display: none;
 }
 .marquee a {
 	color: #ABEBF4;
@@ -96,12 +97,15 @@ td {
 .bottom {
 	width: 100%;
 	text-align: center;
-	/* position: fixed; */
-	/* bottom: 10px; */
+	position: fixed;
+	bottom: 10px;
 }
 .bottom a:link, .bottom a:visited {
 	color: orange;
 }
 .bottom a:hover, .bottom a:active {
 	color: red;
+}
+.content {
+	/* position: fixed; */
 }

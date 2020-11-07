@@ -9,7 +9,8 @@
 	<!-- <script src="scripts/LoadOnScroll.js" type="text/javascript" async></script> -->
 	<script>
 		function resizeIframe(obj) {
-		obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+		obj.style.height = document.documentElement.offsetHeight - obj.offsetTop - 100 + "px";
+		document.documentElement.style.overflow="hidden";
 		}
 	</script>
 	<meta charset="utf-8">
@@ -37,8 +38,8 @@
 	  <a title="רדיו דנה בספוטיפיי" href="https://open.spotify.com/show/26X70CVzY1dORg6g0igMag" target="_blank" style="color:#1DB954"><i class="fab fa-spotify"></i></a>
 	</div>
 	<div class="marquee" style="position:fixed"><marquee direction="right"><a target="_blank" href="https://www.facebook.com/events/2860307874250063/"><i>ביום חמישי (5.11.2020) בשעה 18:30 - רדיו דנה מארח את השחקן ניר סעדון</i></a></marquee></div>
-	<div class="stackedit__html" style="padding-top:100px;">
-		<iframe  name="content" scrolling="no" onload="resizeIframe(this)"></iframe>
+	<div class="stackedit__html" style="padding-top:100px">
+		<iframe  name="content" class="content" onload="resizeIframe(this)"></iframe>
 	</div>
 	<table class="bottom"><tr><td>
 		<a title="Real Time Web Analytics" href="http://clicky.com/101284565" target="_blank"><img src="images/badge.gif" border="0" /></a>
