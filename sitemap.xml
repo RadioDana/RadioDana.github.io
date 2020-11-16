@@ -3,13 +3,17 @@
   <url>
     <loc>https://radiodana.github.io/</loc>
    <lastmod>2020-11-16</lastmod>
+   <changefreq>daily</changefreq>
+   <priority>1.0</priority>
   </url>
   <url>
     <loc>https://radiodana.github.io/suggest.html</loc>
    <lastmod>2020-11-16</lastmod>
+   <priority>0.8</priority>
   </url>
   <url>
     <loc>https://radiodana.github.io/musicians.html</loc>
    <lastmod>2020-11-16</lastmod>
+   <priority>0.8</priority>
   </url>
 </urlset>
