@@ -46,10 +46,11 @@ td {
 	width: 100%;
 	background-color: rgba(5, 37, 50, 0.75);
 	z-index: 0;
-	/* display: none; */
+	display: none;
 }
 .marquee a {
 	color: #ABEBF4;
+	font-style: italic;
 }
 .marquee a:hover {
 	font-weight: bold;
