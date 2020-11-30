@@ -62,13 +62,16 @@ function showVisible() {
 
 var scrollTimer = -1;
 var header = document.getElementById("header");
+var footer = document.getElementById("footer");
 
 function scrolling() {
     header.classList.add("scroll");
+	footer.classList.add("scroll");
 }
 
 function scrollFinished() {
     header.classList.remove("scroll");
+	footer.classList.remove("scroll");
 }
 
 window.addEventListener('scroll', showVisible);
