@@ -29,6 +29,10 @@ p {
 	background: rgba(5, 37, 50, 0.5);
 	color: rgb(200,200,200);
 }
+span {
+	float: left;
+	direction: ltr;
+}
 iframe {
 	border: none;
 	width: 100%;
