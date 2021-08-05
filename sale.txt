@@ -1,0 +1,10 @@
+IY0,תשתית אינטרנט 200Mb ,https://www.hot.net.il/ChannelsAndPrices/HotNewSalePage/INT200Mbform/
+IY1,אינטרנט 200Mb כולל ספק מבית HOT ,https://www.hot.net.il/ChannelsAndPrices/HotNewSalePage/INT200MbwithHOTnet/
+IY3,אינטרנט 500Mb כולל ספק מבית HOT ,https://www.hot.net.il/ChannelsAndPrices/HotNewSalePage/INT500MbwithHOTnet/
+IY4,תשתית אינטרנט עד 500Mb ,https://www.hot.net.il/ChannelsAndPrices/HotNewSalePage/INT500Mbform/
+I3X,תשתית אינטרנט 500Mb/12Mb ,https://www.hot.net.il/ChannelsAndPrices/HotNewSalePage/INT500MbUPLOAD12Mb/
+I2Q,אינטרנט 500Mb/12Mb כולל ספק מבית HOT ,https://www.hot.net.il/ChannelsAndPrices/HotNewSalePage/INT500MbUp12MbwithHOTnet/
+IX3,טריפל iExtra במחיר קבוע ,https://www.hot.net.il/ChannelsAndPrices/HotNewSalePage/tripleiextraform/
+IX5,טריפל במהירות 500Mb בהנחה מטורפת ל-3 חודשים ,https://www.hot.net.il/ChannelsAndPrices/HotNewSalePage/tripleiextra500Mbform/
+IZ3,מבצע טלוויזיה iExtra,https://www.hot.net.il/ChannelsAndPrices/HotNewSalePage/iextratvform/
+,,https://www.hot.net.il/ChannelsAndPrices/HOTFiberJoiningOffers/?_ga=2.43033573.1545731113.1626584426-1828473319.1622625890&_gac=1.81348069.1627567191.CjwKCAjwo4mIBhBsEiwAKgzXOARrSdLYnXjI_MR7t4psVUgtqlHLEpdh3CjdypHvBKMRyTWibUi00BoCTCwQAvD_BwE
